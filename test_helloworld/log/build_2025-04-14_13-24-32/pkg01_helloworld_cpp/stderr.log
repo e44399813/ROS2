@@ -1,0 +1,19 @@
+[01m[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:7:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_share[m[K’ is not a member of ‘[01m[Krclcpp::Node[m[K’
+    7 |   auto node = rclcpp::Node::[01;31m[Kmake_share[m[K("helloworld_node");
+      |                             [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:2[m[K:
+[01m[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:8:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello,world");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:8:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello,world");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:8:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello,world");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/helloworld.dir/build.make:76：CMakeFiles/helloworld.dir/src/helloworld.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/helloworld.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

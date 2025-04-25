@@ -1,0 +1,50 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:1[m[K:
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In member function ‘[01m[Kvoid Listener::[01;32m[Ktopic_callback[m[K(const std_msgs::msg::String&) const[m[K’:
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   11 |     RCLCPP_INFO(this->get_logger(), "订阅信息: %s ",[01;31m[Kmsg[m[K.data.c_str());
+      |                                                     [01;31m[K^~~[m[K
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:53:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K:
+[01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267[m[K:
+[01m[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+   34 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26[m[K,
+                 from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:9:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | void topic_callback ([01;35m[Kconst std_msgs::msg::String & mag[m[K) const
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76：CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_listener_str.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

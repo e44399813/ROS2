@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.002722] (pkg01_helloworld_cpp) JobQueued: {'identifier': 'pkg01_helloworld_cpp', 'dependencies': OrderedDict()}
+[0.003409] (pkg01_helloworld_cpp) JobStarted: {'identifier': 'pkg01_helloworld_cpp'}
+[0.010214] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'cmake'}
+[0.010279] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'build'}
+[0.010301] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', '--', '-j2', '-l2'], 'cwd': '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://192.168.134.1:7890/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'lihaoting', 'all_proxy': 'socks://192.168.134.1:7890/', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '10925', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f17e485d4b7a19e5a133160d67fc84e9', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://192.168.134.1:7890/', 'COLCON_PREFIX_PATH': '/home/lihaoting/ROS2/test_helloworld/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'ALL_PROXY': 'socks://192.168.134.1:7890/', 'http_proxy': 'http://192.168.134.1:7890/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/10925,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/10925', 'XDG_MENU_PREFIX': 'gnome-', 'ftp_proxy': 'http://192.168.134.1:7890/', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/05a985ac_b0ec_4962_8b01_964cb8dbbdd9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G3KH42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.138', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'FTP_PROXY': 'http://192.168.134.1:7890/', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f17e485d4b7a19e5a133160d67fc84e9', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://192.168.134.1:7890/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.080244] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o\x1b[0m\n'}
+[0.101888] (-) TimerEvent: {}
+[0.202608] (-) TimerEvent: {}
+[0.303601] (-) TimerEvent: {}
+[0.404164] (-) TimerEvent: {}
+[0.505763] (-) TimerEvent: {}
+[0.610168] (-) TimerEvent: {}
+[0.710724] (-) TimerEvent: {}
+[0.811038] (-) TimerEvent: {}
+[0.911669] (-) TimerEvent: {}
+[1.012245] (-) TimerEvent: {}
+[1.112640] (-) TimerEvent: {}
+[1.212934] (-) TimerEvent: {}
+[1.313330] (-) TimerEvent: {}
+[1.414099] (-) TimerEvent: {}
+[1.514492] (-) TimerEvent: {}
+[1.615016] (-) TimerEvent: {}
+[1.717053] (-) TimerEvent: {}
+[1.817393] (-) TimerEvent: {}
+[1.917996] (-) TimerEvent: {}
+[2.018537] (-) TimerEvent: {}
+[2.119390] (-) TimerEvent: {}
+[2.219872] (-) TimerEvent: {}
+[2.320771] (-) TimerEvent: {}
+[2.421269] (-) TimerEvent: {}
+[2.521652] (-) TimerEvent: {}
+[2.622262] (-) TimerEvent: {}
+[2.722753] (-) TimerEvent: {}
+[2.823107] (-) TimerEvent: {}
+[2.923724] (-) TimerEvent: {}
+[3.024306] (-) TimerEvent: {}
+[3.157076] (-) TimerEvent: {}
+[3.317906] (-) TimerEvent: {}
+[3.418570] (-) TimerEvent: {}
+[3.519972] (-) TimerEvent: {}
+[3.620950] (-) TimerEvent: {}
+[3.722834] (-) TimerEvent: {}
+[3.827386] (-) TimerEvent: {}
+[3.927826] (-) TimerEvent: {}
+[4.028268] (-) TimerEvent: {}
+[4.130638] (-) TimerEvent: {}
+[4.230946] (-) TimerEvent: {}
+[4.331230] (-) TimerEvent: {}
+[4.436259] (-) TimerEvent: {}
+[4.538321] (-) TimerEvent: {}
+[4.638744] (-) TimerEvent: {}
+[4.739449] (-) TimerEvent: {}
+[4.840122] (-) TimerEvent: {}
+[4.943023] (-) TimerEvent: {}
+[5.048993] (-) TimerEvent: {}
+[5.150018] (-) TimerEvent: {}
+[5.250557] (-) TimerEvent: {}
+[5.353128] (-) TimerEvent: {}
+[5.453509] (-) TimerEvent: {}
+[5.554196] (-) TimerEvent: {}
+[5.656555] (-) TimerEvent: {}
+[5.759339] (-) TimerEvent: {}
+[5.862467] (-) TimerEvent: {}
+[5.963096] (-) TimerEvent: {}
+[6.065713] (-) TimerEvent: {}
+[6.152679] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.152928] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:7:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmake_share\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.153013] (pkg01_helloworld_cpp) StderrLine: {'line': b'    7 |   auto node = rclcpp::Node::\x1b[01;31m\x1b[Kmake_share\x1b[m\x1b[K("helloworld_node");\n'}
+[6.153087] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.154001] (pkg01_helloworld_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[6.154128] (pkg01_helloworld_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[6.154206] (pkg01_helloworld_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:2\x1b[m\x1b[K:\n'}
+[6.154278] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:8:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.154375] (pkg01_helloworld_cpp) StderrLine: {'line': b'    8 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "hello,world");\n'}
+[6.154448] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.154518] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:8:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.154587] (pkg01_helloworld_cpp) StderrLine: {'line': b'    8 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "hello,world");\n'}
+[6.154655] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.154723] (pkg01_helloworld_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/src/helloworld.cpp:8:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.154789] (pkg01_helloworld_cpp) StderrLine: {'line': b'    8 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "hello,world");\n'}
+[6.154915] (pkg01_helloworld_cpp) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.165853] (-) TimerEvent: {}
+[6.268255] (-) TimerEvent: {}
+[6.372272] (-) TimerEvent: {}
+[6.472911] (-) TimerEvent: {}
+[6.573403] (-) TimerEvent: {}
+[6.676236] (-) TimerEvent: {}
+[6.778958] (-) TimerEvent: {}
+[6.881255] (-) TimerEvent: {}
+[6.984263] (-) TimerEvent: {}
+[7.088304] (-) TimerEvent: {}
+[7.163593] (pkg01_helloworld_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/helloworld.dir/build.make:76\xef\xbc\x9aCMakeFiles/helloworld.dir/src/helloworld.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.164294] (pkg01_helloworld_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/helloworld.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.164419] (pkg01_helloworld_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.166530] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 2}
+[7.180323] (pkg01_helloworld_cpp) JobEnded: {'identifier': 'pkg01_helloworld_cpp', 'rc': 2}
+[7.188592] (-) TimerEvent: {}
+[7.191992] (-) EventReactorShutdown: {}

@@ -1,0 +1,73 @@
+[0.097s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic -- -j2 -l2
+[0.841s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.091s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.630s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.788s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.956s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.741s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.770s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.079s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[6.232s] -- Found base_interfaces_demo: 0.0.0 (/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[6.247s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.881s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.881s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/include>
+[6.881s] -- Configured cppcheck exclude dirs and/or files: 
+[6.883s] -- Added test 'lint_cmake' to check CMake code style
+[6.887s] -- Added test 'uncrustify' to check C / C++ code style
+[6.888s] -- Configured uncrustify additional arguments: 
+[6.889s] -- Added test 'xmllint' to check XML markup files
+[7.009s] -- Configuring done (6.5s)
+[7.761s] -- Generating done (0.5s)
+[7.814s] -- Build files have been written to: /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic
+[8.205s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[8.246s] [ 75%] Built target demo01_talker_str
+[23.015s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[23.015s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[23.015s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[23.015s]                  from [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:1[m[K:
+[23.015s] [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In constructor ‘[01m[KLIstener::[01;32m[KLIstener[m[K()[m[K’:
+[23.015s] [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:15:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[23.015s]    15 |     RCLCPP_INFO(this->get_logger(), "订阅的信息: %s", [01;31m[Kmsg[m[K.data.c_str());
+[23.015s]       |                                                       [01;31m[K^~~[m[K
+[23.021s] [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:15:55:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[23.021s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156[m[K,
+[23.021s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[23.021s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K:
+[23.021s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[23.021s]    30 | namespace [01;36m[Kmsg[m[K
+[23.022s]       |           [01;36m[K^~~[m[K
+[23.022s] In file included from [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23[m[K,
+[23.022s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267[m[K:
+[23.022s] [01m[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[23.022s]    30 | namespace [01;36m[Kmsg[m[K
+[23.022s]       |           [01;36m[K^~~[m[K
+[23.022s] [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+[23.022s]    34 | namespace [01;36m[Kmsg[m[K
+[23.022s]       |           [01;36m[K^~~[m[K
+[23.022s] In file included from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26[m[K,
+[23.022s]                  from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[23.022s]                  from [01m[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[23.032s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[23.032s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[23.032s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[23.032s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[23.032s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[23.032s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[23.033s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+[23.033s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[23.033s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[23.033s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[23.033s] [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[23.033s]    30 | namespace [01;36m[Kmsg[m[K
+[23.033s]       |           [01;36m[K^~~[m[K
+[23.033s] In file included from [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+[23.033s]                  from [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:2[m[K:
+[23.034s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[23.034s]    30 | namespace [01;36m[Kmsg[m[K
+[23.034s]       |           [01;36m[K^~~[m[K
+[24.398s] gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76：CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] 错误 1
+[24.399s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_listener_str.dir/all] 错误 2
+[24.402s] gmake: *** [Makefile:146：all] 错误 2
+[24.415s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic -- -j2 -l2

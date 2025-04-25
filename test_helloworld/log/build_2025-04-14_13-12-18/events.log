@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (pkg01_helloworld_cpp) JobQueued: {'identifier': 'pkg01_helloworld_cpp', 'dependencies': OrderedDict()}
+[0.000213] (pkg01_helloworld_cpp) JobStarted: {'identifier': 'pkg01_helloworld_cpp'}
+[0.099667] (-) TimerEvent: {}
+[0.101393] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'cmake'}
+[0.101490] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp', '-DCMAKE_INSTALL_PREFIX=/home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp'], 'cwd': '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://192.168.134.1:7890/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'lihaoting', 'all_proxy': 'socks://192.168.134.1:7890/', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '10925', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f17e485d4b7a19e5a133160d67fc84e9', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://192.168.134.1:7890/', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'ALL_PROXY': 'socks://192.168.134.1:7890/', 'http_proxy': 'http://192.168.134.1:7890/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/10925,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/10925', 'XDG_MENU_PREFIX': 'gnome-', 'ftp_proxy': 'http://192.168.134.1:7890/', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/79c94976_1118_4632_9512_4b90102bc834', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G3KH42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.121', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'FTP_PROXY': 'http://192.168.134.1:7890/', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f17e485d4b7a19e5a133160d67fc84e9', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://192.168.134.1:7890/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.199777] (-) TimerEvent: {}
+[0.300784] (-) TimerEvent: {}
+[0.402919] (-) TimerEvent: {}
+[0.503998] (-) TimerEvent: {}
+[0.604690] (-) TimerEvent: {}
+[0.705623] (-) TimerEvent: {}
+[0.806125] (-) TimerEvent: {}
+[0.907116] (-) TimerEvent: {}
+[1.007549] (-) TimerEvent: {}
+[1.107946] (-) TimerEvent: {}
+[1.208749] (-) TimerEvent: {}
+[1.309639] (-) TimerEvent: {}
+[1.410571] (-) TimerEvent: {}
+[1.511673] (-) TimerEvent: {}
+[1.612184] (-) TimerEvent: {}
+[1.712681] (-) TimerEvent: {}
+[1.813194] (-) TimerEvent: {}
+[1.913485] (-) TimerEvent: {}
+[2.014032] (-) TimerEvent: {}
+[2.114500] (-) TimerEvent: {}
+[2.215106] (-) TimerEvent: {}
+[2.315571] (-) TimerEvent: {}
+[2.416031] (-) TimerEvent: {}
+[2.516406] (-) TimerEvent: {}
+[2.617034] (-) TimerEvent: {}
+[2.717596] (-) TimerEvent: {}
+[2.818407] (-) TimerEvent: {}
+[2.918802] (-) TimerEvent: {}
+[3.019509] (-) TimerEvent: {}
+[3.120189] (-) TimerEvent: {}
+[3.237931] (-) TimerEvent: {}
+[3.381172] (-) TimerEvent: {}
+[3.481786] (-) TimerEvent: {}
+[3.582306] (-) TimerEvent: {}
+[3.683060] (-) TimerEvent: {}
+[3.783698] (-) TimerEvent: {}
+[3.884301] (-) TimerEvent: {}
+[3.984837] (-) TimerEvent: {}
+[4.085577] (-) TimerEvent: {}
+[4.186278] (-) TimerEvent: {}
+[4.287045] (-) TimerEvent: {}
+[4.387586] (-) TimerEvent: {}
+[4.427695] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.487662] (-) TimerEvent: {}
+[4.588275] (-) TimerEvent: {}
+[4.688843] (-) TimerEvent: {}
+[4.789315] (-) TimerEvent: {}
+[4.889693] (-) TimerEvent: {}
+[4.990112] (-) TimerEvent: {}
+[5.066912] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[5.090368] (-) TimerEvent: {}
+[5.218961] (-) TimerEvent: {}
+[5.223064] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.319352] (-) TimerEvent: {}
+[5.420175] (-) TimerEvent: {}
+[5.511208] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.519957] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.520479] (-) TimerEvent: {}
+[5.521179] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.522261] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.541137] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.620855] (-) TimerEvent: {}
+[5.720792] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.721014] (-) TimerEvent: {}
+[5.731214] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.731383] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.732963] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.821580] (-) TimerEvent: {}
+[5.922414] (-) TimerEvent: {}
+[5.925790] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.022547] (-) TimerEvent: {}
+[6.155044] (-) TimerEvent: {}
+[6.255570] (-) TimerEvent: {}
+[6.273677] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.355862] (-) TimerEvent: {}
+[6.456856] (-) TimerEvent: {}
+[6.557321] (-) TimerEvent: {}
+[6.657884] (-) TimerEvent: {}
+[6.755974] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[6.758175] (-) TimerEvent: {}
+[6.858622] (-) TimerEvent: {}
+[6.958993] (-) TimerEvent: {}
+[7.059434] (-) TimerEvent: {}
+[7.135031] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[7.159829] (-) TimerEvent: {}
+[7.179488] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[7.260091] (-) TimerEvent: {}
+[7.326073] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.360223] (-) TimerEvent: {}
+[7.403397] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.461013] (-) TimerEvent: {}
+[7.561757] (-) TimerEvent: {}
+[7.662524] (-) TimerEvent: {}
+[7.749661] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[7.762713] (-) TimerEvent: {}
+[7.763038] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.863175] (-) TimerEvent: {}
+[7.963496] (-) TimerEvent: {}
+[8.064188] (-) TimerEvent: {}
+[8.164888] (-) TimerEvent: {}
+[8.165743] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[8.265067] (-) TimerEvent: {}
+[8.286332] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[8.318702] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.365258] (-) TimerEvent: {}
+[8.465760] (-) TimerEvent: {}
+[8.566679] (-) TimerEvent: {}
+[8.667159] (-) TimerEvent: {}
+[8.669396] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.767847] (-) TimerEvent: {}
+[8.877302] (-) TimerEvent: {}
+[8.978068] (-) TimerEvent: {}
+[9.078827] (-) TimerEvent: {}
+[9.140483] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.141368] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp/include>\n'}
+[9.141583] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.143367] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.148163] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.148343] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.149556] (pkg01_helloworld_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.154463] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Configuring done (7.8s)\n'}
+[9.179417] (-) TimerEvent: {}
+[9.189752] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.200434] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp\n'}
+[9.217635] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 0}
+[9.219070] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'build'}
+[9.219093] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', '--', '-j2', '-l2'], 'cwd': '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://192.168.134.1:7890/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'lihaoting', 'all_proxy': 'socks://192.168.134.1:7890/', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '10925', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f17e485d4b7a19e5a133160d67fc84e9', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://192.168.134.1:7890/', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'ALL_PROXY': 'socks://192.168.134.1:7890/', 'http_proxy': 'http://192.168.134.1:7890/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/10925,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/10925', 'XDG_MENU_PREFIX': 'gnome-', 'ftp_proxy': 'http://192.168.134.1:7890/', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/79c94976_1118_4632_9512_4b90102bc834', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G3KH42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.121', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'FTP_PROXY': 'http://192.168.134.1:7890/', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f17e485d4b7a19e5a133160d67fc84e9', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://192.168.134.1:7890/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.279844] (-) TimerEvent: {}
+[9.305055] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o\x1b[0m\n'}
+[9.380051] (-) TimerEvent: {}
+[9.480655] (-) TimerEvent: {}
+[9.514062] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable helloworld\x1b[0m\n'}
+[9.580917] (-) TimerEvent: {}
+[9.681757] (-) TimerEvent: {}
+[9.782165] (-) TimerEvent: {}
+[9.882585] (-) TimerEvent: {}
+[9.983332] (-) TimerEvent: {}
+[10.083929] (-) TimerEvent: {}
+[10.180008] (pkg01_helloworld_cpp) StdoutLine: {'line': b'[100%] Built target helloworld\n'}
+[10.184188] (-) TimerEvent: {}
+[10.199450] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 0}
+[10.200199] (pkg01_helloworld_cpp) JobProgress: {'identifier': 'pkg01_helloworld_cpp', 'progress': 'install'}
+[10.213801] (pkg01_helloworld_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp'], 'cwd': '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://192.168.134.1:7890/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'lihaoting', 'all_proxy': 'socks://192.168.134.1:7890/', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '10925', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f17e485d4b7a19e5a133160d67fc84e9', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://192.168.134.1:7890/', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'ALL_PROXY': 'socks://192.168.134.1:7890/', 'http_proxy': 'http://192.168.134.1:7890/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/10925,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/10925', 'XDG_MENU_PREFIX': 'gnome-', 'ftp_proxy': 'http://192.168.134.1:7890/', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/79c94976_1118_4632_9512_4b90102bc834', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G3KH42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.121', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'FTP_PROXY': 'http://192.168.134.1:7890/', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f17e485d4b7a19e5a133160d67fc84e9', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://192.168.134.1:7890/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.231676] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.232129] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld\n'}
+[10.233098] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld" to ""\n'}
+[10.233320] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp\n'}
+[10.234169] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp\n'}
+[10.234300] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh\n'}
+[10.234526] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv\n'}
+[10.234801] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh\n'}
+[10.234894] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv\n'}
+[10.236854] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash\n'}
+[10.237047] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh\n'}
+[10.237229] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh\n'}
+[10.237411] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv\n'}
+[10.237593] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv\n'}
+[10.237811] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp\n'}
+[10.237907] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake\n'}
+[10.237980] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake\n'}
+[10.238111] (pkg01_helloworld_cpp) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml\n'}
+[10.240518] (pkg01_helloworld_cpp) CommandEnded: {'returncode': 0}
+[10.284776] (-) TimerEvent: {}
+[10.357935] (pkg01_helloworld_cpp) JobEnded: {'identifier': 'pkg01_helloworld_cpp', 'rc': 0}
+[10.361926] (-) EventReactorShutdown: {}

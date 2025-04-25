@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-23bc803edd792b431c7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pkg01_helloworld_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld-ef8f3b6213fb47652a59.json",
+					"name" : "helloworld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg01_helloworld_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg01_helloworld_cpp_uninstall-3b731cd76e6af5757fe0.json",
+					"name" : "pkg01_helloworld_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a857b9c827d6c0da1bde.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp",
+		"source" : "/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

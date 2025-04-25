@@ -1,0 +1,42 @@
+[0.015s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lihaoting/ROS2/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo
+[0.129s] -- The C compiler identification is GNU 13.3.0
+[0.295s] -- The CXX compiler identification is GNU 13.3.0
+[0.342s] -- Detecting C compiler ABI info
+[0.847s] -- Detecting C compiler ABI info - done
+[0.864s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.875s] -- Detecting C compile features
+[0.875s] -- Detecting C compile features - done
+[0.922s] -- Detecting CXX compiler ABI info
+[1.116s] -- Detecting CXX compiler ABI info - done
+[1.133s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.134s] -- Detecting CXX compile features
+[1.134s] -- Detecting CXX compile features - done
+[1.142s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.418s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.584s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.853s] -- Added test 'lint_cmake' to check CMake code style
+[1.863s] -- Added test 'xmllint' to check XML markup files
+[1.866s] -- Configuring done (1.8s)
+[1.874s] -- Generating done (0.0s)
+[1.879s] -- Build files have been written to: /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo
+[1.887s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lihaoting/ROS2/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo
+[1.890s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo -- -j2 -l2
+[2.039s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo -- -j2 -l2
+[2.068s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo
+[2.091s] -- Install configuration: ""
+[2.091s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[2.091s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[2.091s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[2.091s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[2.092s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[2.092s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[2.092s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[2.092s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[2.094s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[2.100s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[2.100s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[2.100s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[2.104s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[2.112s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[2.112s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[2.117s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo

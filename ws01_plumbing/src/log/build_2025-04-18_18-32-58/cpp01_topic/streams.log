@@ -1,0 +1,27 @@
+[0.040s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic -- -j2 -l2
+[0.368s] [ 50%] Built target demo01_talker_str
+[0.383s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[15.230s] [100%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[15.651s] [100%] Built target demo02_listener_str
+[15.689s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic -- -j2 -l2
+[15.689s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic
+[15.714s] -- Install configuration: ""
+[15.714s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[15.714s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[15.729s] -- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""
+[15.735s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[15.738s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[15.738s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[15.738s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[15.738s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[15.738s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[15.738s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[15.741s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[15.741s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[15.741s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[15.741s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.dsv
+[15.741s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[15.746s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[15.751s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[15.757s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.xml
+[15.757s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic

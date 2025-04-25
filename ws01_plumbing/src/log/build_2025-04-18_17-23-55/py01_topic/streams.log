@@ -1,0 +1,21 @@
+[8.398s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py01_topic build --build-base /home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/build install --record /home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/install.log --single-version-externally-managed install_data
+[10.860s] running egg_info
+[10.988s] writing ../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[10.999s] writing dependency_links to ../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[10.999s] writing entry points to ../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[11.006s] writing requirements to ../build/py01_topic/py01_topic.egg-info/requires.txt
+[11.012s] writing top-level names to ../build/py01_topic/py01_topic.egg-info/top_level.txt
+[11.319s] reading manifest file '../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[11.320s] writing manifest file '../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[11.320s] running build
+[11.321s] running build_py
+[11.321s] running install
+[11.355s] running install_lib
+[11.444s] running install_data
+[11.445s] running install_egg_info
+[11.531s] removing '/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info' (and everything under it)
+[11.533s] Copying ../build/py01_topic/py01_topic.egg-info to /home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info
+[11.535s] running install_scripts
+[12.315s] Installing demo01_talker_str_py script to /home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/py01_topic
+[12.318s] writing list of installed files to '/home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/install.log'
+[12.534s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py01_topic build --build-base /home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/build install --record /home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/install.log --single-version-externally-managed install_data

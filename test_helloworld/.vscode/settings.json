@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "/home/lihaoting/ROS2/test_helloworld/src/pkg01_helloworld_cpp",
+    "ros.distro": "jazzy",
+    "files.associations": {
+        "cstdio": "cpp",
+        "stdexcept": "cpp",
+        "vector": "cpp"
+    }
+}

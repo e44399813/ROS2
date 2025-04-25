@@ -1,0 +1,64 @@
+[0.014s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic
+[0.089s] -- The C compiler identification is GNU 13.3.0
+[0.292s] -- The CXX compiler identification is GNU 13.3.0
+[0.332s] -- Detecting C compiler ABI info
+[0.590s] -- Detecting C compiler ABI info - done
+[0.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.616s] -- Detecting C compile features
+[0.617s] -- Detecting C compile features - done
+[0.635s] -- Detecting CXX compiler ABI info
+[0.854s] -- Detecting CXX compiler ABI info - done
+[0.896s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.896s] -- Detecting CXX compile features
+[0.897s] -- Detecting CXX compile features - done
+[0.903s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.285s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.499s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.562s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.595s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.089s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.089s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.278s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.321s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.595s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.635s] -- Found base_interfaces_demo: 0.0.0 (/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[2.642s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.834s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.834s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/include>
+[2.834s] -- Configured cppcheck exclude dirs and/or files: 
+[2.835s] -- Added test 'lint_cmake' to check CMake code style
+[2.837s] -- Added test 'uncrustify' to check C / C++ code style
+[2.837s] -- Configured uncrustify additional arguments: 
+[2.838s] -- Added test 'xmllint' to check XML markup files
+[2.844s] -- Configuring done (2.8s)
+[2.899s] -- Generating done (0.0s)
+[2.913s] -- Build files have been written to: /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic
+[2.936s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic
+[2.940s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic -- -j2 -l2
+[3.047s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[12.320s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[13.496s] [100%] Built target demo01_talker_str
+[13.517s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic -- -j2 -l2
+[13.520s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic
+[13.531s] -- Install configuration: ""
+[13.531s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[13.535s] -- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[13.536s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[13.536s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[13.536s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[13.536s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[13.537s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[13.537s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[13.537s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[13.537s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[13.537s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[13.539s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[13.539s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.dsv
+[13.539s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[13.539s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[13.539s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[13.539s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.xml
+[13.541s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/lihaoting/ROS2/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic

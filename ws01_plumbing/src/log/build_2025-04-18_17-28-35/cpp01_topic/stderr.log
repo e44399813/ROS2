@@ -1,0 +1,13 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:1[m[K:
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In constructor ‘[01m[KListener::[01;32m[KListener[m[K()[m[K’:
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:15:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar*[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   15 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"订阅的信息: %s"[m[K);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:15:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   15 |     RCLCPP_INFO(this->get_logger(), "订阅的信息: [01;36m[K%s[m[K");
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kchar*[m[K

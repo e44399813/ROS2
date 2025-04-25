@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.000210] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict({'base_interfaces_demo': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo'})}
+[0.000239] (py01_topic) JobQueued: {'identifier': 'py01_topic', 'dependencies': OrderedDict({'base_interfaces_demo': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo'})}
+[0.000257] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.009751] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.011064] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.011122] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo', '--', '-j2', '-l2'], 'cwd': '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lihaoting', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lihaoting/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/190/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lihaoting/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'MANAGERPID': '2085', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2291', 'BUNDLED_DEBUGPY_PATH': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3264', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'JOURNAL_STREAM': '9:24476', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/2250,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/2250', 'GTK_EXE_PREFIX': '/snap/code/190/usr', 'INVOCATION_ID': '75f4787188c34a16a6df2a299a7e55a4', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/190/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7abc49823bd940c1.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lihaoting/snap/code/190/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S4J942', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lihaoting/snap/code/190/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lihaoting/snap/code/190/.local/share:/home/lihaoting/snap/code/190:/snap/code/190/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.104389] (-) TimerEvent: {}
+[0.186552] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.186915] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'install'}
+[0.207400] (-) TimerEvent: {}
+[0.211703] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo'], 'cwd': '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lihaoting', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lihaoting/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/190/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lihaoting/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'MANAGERPID': '2085', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2291', 'BUNDLED_DEBUGPY_PATH': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3264', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'JOURNAL_STREAM': '9:24476', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/2250,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/2250', 'GTK_EXE_PREFIX': '/snap/code/190/usr', 'INVOCATION_ID': '75f4787188c34a16a6df2a299a7e55a4', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/190/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7abc49823bd940c1.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lihaoting/snap/code/190/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S4J942', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lihaoting/snap/code/190/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lihaoting/snap/code/190/.local/share:/home/lihaoting/snap/code/190:/snap/code/190/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.251297] (base_interfaces_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.251666] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo\n'}
+[0.251816] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo\n'}
+[0.251893] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh\n'}
+[0.251965] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv\n'}
+[0.252044] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh\n'}
+[0.252113] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv\n'}
+[0.252361] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash\n'}
+[0.252477] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh\n'}
+[0.252549] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh\n'}
+[0.262487] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv\n'}
+[0.262747] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv\n'}
+[0.262838] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo\n'}
+[0.263303] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake\n'}
+[0.263408] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake\n'}
+[0.263484] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.xml\n'}
+[0.286979] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.307655] (-) TimerEvent: {}
+[0.323834] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 0}
+[0.324263] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.340291] (py01_topic) JobStarted: {'identifier': 'py01_topic'}
+[0.358224] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.358272] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.358291] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic', '--', '-j2', '-l2'], 'cwd': '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lihaoting', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lihaoting/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/190/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lihaoting/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'MANAGERPID': '2085', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2291', 'BUNDLED_DEBUGPY_PATH': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3264', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'JOURNAL_STREAM': '9:24476', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/2250,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/2250', 'GTK_EXE_PREFIX': '/snap/code/190/usr', 'INVOCATION_ID': '75f4787188c34a16a6df2a299a7e55a4', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/190/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7abc49823bd940c1.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lihaoting/snap/code/190/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S4J942', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lihaoting/snap/code/190/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lihaoting/snap/code/190/.local/share:/home/lihaoting/snap/code/190:/snap/code/190/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.410263] (-) TimerEvent: {}
+[0.511190] (-) TimerEvent: {}
+[0.615923] (-) TimerEvent: {}
+[0.723327] (-) TimerEvent: {}
+[0.740468] (cpp01_topic) StdoutLine: {'line': b'[ 50%] Built target demo01_talker_str\n'}
+[0.775086] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o\x1b[0m\n'}
+[0.824824] (-) TimerEvent: {}
+[0.925361] (-) TimerEvent: {}
+[1.029535] (-) TimerEvent: {}
+[1.133176] (-) TimerEvent: {}
+[1.234070] (-) TimerEvent: {}
+[1.349979] (-) TimerEvent: {}
+[1.453484] (-) TimerEvent: {}
+[1.554087] (-) TimerEvent: {}
+[1.654539] (-) TimerEvent: {}
+[1.759625] (-) TimerEvent: {}
+[1.863196] (-) TimerEvent: {}
+[1.970274] (-) TimerEvent: {}
+[2.070600] (-) TimerEvent: {}
+[2.171060] (-) TimerEvent: {}
+[2.276288] (-) TimerEvent: {}
+[2.378370] (-) TimerEvent: {}
+[2.480103] (-) TimerEvent: {}
+[2.580529] (-) TimerEvent: {}
+[2.682721] (-) TimerEvent: {}
+[2.787891] (-) TimerEvent: {}
+[2.889780] (-) TimerEvent: {}
+[2.990387] (-) TimerEvent: {}
+[3.091176] (-) TimerEvent: {}
+[3.193066] (-) TimerEvent: {}
+[3.294698] (-) TimerEvent: {}
+[3.324417] (py01_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py01_topic', 'build', '--build-base', '/home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/build', 'install', '--record', '/home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lihaoting/ROS2/ws01_plumbing/src/py01_topic', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lihaoting', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lihaoting/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/190/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lihaoting/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'MANAGERPID': '2085', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2291', 'BUNDLED_DEBUGPY_PATH': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3264', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'JOURNAL_STREAM': '9:24476', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/2250,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/2250', 'GTK_EXE_PREFIX': '/snap/code/190/usr', 'INVOCATION_ID': '75f4787188c34a16a6df2a299a7e55a4', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/190/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7abc49823bd940c1.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lihaoting/snap/code/190/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S4J942', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lihaoting/snap/code/190/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lihaoting/snap/code/190/.local/share:/home/lihaoting/snap/code/190:/snap/code/190/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.396244] (-) TimerEvent: {}
+[3.496737] (-) TimerEvent: {}
+[3.599565] (-) TimerEvent: {}
+[3.700000] (-) TimerEvent: {}
+[3.804453] (-) TimerEvent: {}
+[3.905207] (-) TimerEvent: {}
+[4.005875] (-) TimerEvent: {}
+[4.107323] (-) TimerEvent: {}
+[4.209018] (-) TimerEvent: {}
+[4.309875] (-) TimerEvent: {}
+[4.421663] (-) TimerEvent: {}
+[4.523050] (-) TimerEvent: {}
+[4.626380] (-) TimerEvent: {}
+[4.730029] (-) TimerEvent: {}
+[4.814397] (py01_topic) StdoutLine: {'line': b'running egg_info\n'}
+[4.832208] (-) TimerEvent: {}
+[4.915790] (py01_topic) StdoutLine: {'line': b'writing ../build/py01_topic/py01_topic.egg-info/PKG-INFO\n'}
+[4.915974] (py01_topic) StdoutLine: {'line': b'writing dependency_links to ../build/py01_topic/py01_topic.egg-info/dependency_links.txt\n'}
+[4.916093] (py01_topic) StdoutLine: {'line': b'writing entry points to ../build/py01_topic/py01_topic.egg-info/entry_points.txt\n'}
+[4.917185] (py01_topic) StdoutLine: {'line': b'writing requirements to ../build/py01_topic/py01_topic.egg-info/requires.txt\n'}
+[4.920807] (py01_topic) StdoutLine: {'line': b'writing top-level names to ../build/py01_topic/py01_topic.egg-info/top_level.txt\n'}
+[4.935505] (-) TimerEvent: {}
+[5.044392] (-) TimerEvent: {}
+[5.148526] (-) TimerEvent: {}
+[5.152989] (py01_topic) StdoutLine: {'line': b"reading manifest file '../build/py01_topic/py01_topic.egg-info/SOURCES.txt'\n"}
+[5.163696] (py01_topic) StdoutLine: {'line': b"writing manifest file '../build/py01_topic/py01_topic.egg-info/SOURCES.txt'\n"}
+[5.163911] (py01_topic) StdoutLine: {'line': b'running build\n'}
+[5.164016] (py01_topic) StdoutLine: {'line': b'running build_py\n'}
+[5.168240] (py01_topic) StdoutLine: {'line': b'running install\n'}
+[5.188342] (py01_topic) StdoutLine: {'line': b'running install_lib\n'}
+[5.228619] (py01_topic) StdoutLine: {'line': b'running install_data\n'}
+[5.228855] (py01_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.248755] (-) TimerEvent: {}
+[5.310551] (py01_topic) StdoutLine: {'line': b"removing '/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.314342] (py01_topic) StdoutLine: {'line': b'Copying ../build/py01_topic/py01_topic.egg-info to /home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info\n'}
+[5.315019] (py01_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[5.349137] (-) TimerEvent: {}
+[5.450155] (-) TimerEvent: {}
+[5.550897] (-) TimerEvent: {}
+[5.657804] (-) TimerEvent: {}
+[5.758190] (-) TimerEvent: {}
+[5.801664] (py01_topic) StdoutLine: {'line': b'Installing demo01_talker_str_py script to /home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/py01_topic\n'}
+[5.801827] (py01_topic) StdoutLine: {'line': b"writing list of installed files to '/home/lihaoting/ROS2/ws01_plumbing/src/build/py01_topic/install.log'\n"}
+[5.863336] (-) TimerEvent: {}
+[5.895924] (py01_topic) CommandEnded: {'returncode': 0}
+[5.921328] (py01_topic) JobEnded: {'identifier': 'py01_topic', 'rc': 0}
+[5.963599] (-) TimerEvent: {}
+[6.065066] (-) TimerEvent: {}
+[6.170337] (-) TimerEvent: {}
+[6.273132] (-) TimerEvent: {}
+[6.373741] (-) TimerEvent: {}
+[6.479566] (-) TimerEvent: {}
+[6.582380] (-) TimerEvent: {}
+[6.684386] (-) TimerEvent: {}
+[6.784696] (-) TimerEvent: {}
+[6.895321] (-) TimerEvent: {}
+[6.996036] (-) TimerEvent: {}
+[7.123249] (-) TimerEvent: {}
+[7.223654] (-) TimerEvent: {}
+[7.323988] (-) TimerEvent: {}
+[7.431798] (-) TimerEvent: {}
+[7.532088] (-) TimerEvent: {}
+[7.643212] (-) TimerEvent: {}
+[7.744103] (-) TimerEvent: {}
+[7.845015] (-) TimerEvent: {}
+[7.951025] (-) TimerEvent: {}
+[8.054810] (-) TimerEvent: {}
+[8.156012] (-) TimerEvent: {}
+[8.257948] (-) TimerEvent: {}
+[8.358865] (-) TimerEvent: {}
+[8.462181] (-) TimerEvent: {}
+[8.574267] (-) TimerEvent: {}
+[8.674890] (-) TimerEvent: {}
+[8.781526] (-) TimerEvent: {}
+[8.882063] (-) TimerEvent: {}
+[8.982687] (-) TimerEvent: {}
+[9.084842] (-) TimerEvent: {}
+[9.185604] (-) TimerEvent: {}
+[9.294485] (-) TimerEvent: {}
+[9.396141] (-) TimerEvent: {}
+[9.497980] (-) TimerEvent: {}
+[9.598492] (-) TimerEvent: {}
+[9.699292] (-) TimerEvent: {}
+[9.800241] (-) TimerEvent: {}
+[9.901340] (-) TimerEvent: {}
+[9.973549] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[9.973800] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[9.973879] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[9.973947] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:1\x1b[m\x1b[K:\n'}
+[9.974013] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Listener::\x1b[01;32m\x1b[Ktopic_callback\x1b[m\x1b[K(const std_msgs::msg::String&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.974171] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.974239] (cpp01_topic) StderrLine: {'line': b'   11 |     RCLCPP_INFO(this->get_logger(), "\xe8\xae\xa2\xe9\x98\x85\xe4\xbf\xa1\xe6\x81\xaf: %s ",\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.data.c_str());\n'}
+[9.974304] (cpp01_topic) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.978753] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[9.978922] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156\x1b[m\x1b[K,\n'}
+[9.979022] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[9.979188] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21\x1b[m\x1b[K:\n'}
+[9.979266] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.979332] (cpp01_topic) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.979396] (cpp01_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.979549] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23\x1b[m\x1b[K,\n'}
+[9.979619] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267\x1b[m\x1b[K:\n'}
+[9.979681] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.979745] (cpp01_topic) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.979807] (cpp01_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.979868] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kservice_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.979972] (cpp01_topic) StderrLine: {'line': b'   34 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.980055] (cpp01_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.980118] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26\x1b[m\x1b[K,\n'}
+[9.980189] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[9.980252] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[9.986791] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[9.986963] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[9.987187] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[9.987356] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[9.991401] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.025128] (-) TimerEvent: {}
+[10.035440] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[10.035597] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[10.035670] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.035758] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.035843] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[10.035909] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.036065] (cpp01_topic) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[10.036129] (cpp01_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.038962] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[10.039156] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:2\x1b[m\x1b[K:\n'}
+[10.039268] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.039365] (cpp01_topic) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[10.039430] (cpp01_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.039492] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:9:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.039558] (cpp01_topic) StderrLine: {'line': b'    9 | void topic_callback (\x1b[01;35m\x1b[Kconst std_msgs::msg::String & mag\x1b[m\x1b[K) const\n'}
+[10.039620] (cpp01_topic) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.125530] (-) TimerEvent: {}
+[10.226502] (-) TimerEvent: {}
+[10.327239] (-) TimerEvent: {}
+[10.428976] (-) TimerEvent: {}
+[10.529749] (-) TimerEvent: {}
+[10.630673] (-) TimerEvent: {}
+[10.731444] (-) TimerEvent: {}
+[10.833542] (-) TimerEvent: {}
+[10.934113] (-) TimerEvent: {}
+[11.034915] (-) TimerEvent: {}
+[11.135763] (-) TimerEvent: {}
+[11.236415] (-) TimerEvent: {}
+[11.337119] (-) TimerEvent: {}
+[11.437920] (-) TimerEvent: {}
+[11.538643] (-) TimerEvent: {}
+[11.639805] (-) TimerEvent: {}
+[11.740222] (-) TimerEvent: {}
+[11.842519] (-) TimerEvent: {}
+[11.943162] (-) TimerEvent: {}
+[12.043887] (-) TimerEvent: {}
+[12.145599] (-) TimerEvent: {}
+[12.246376] (-) TimerEvent: {}
+[12.347461] (-) TimerEvent: {}
+[12.448306] (-) TimerEvent: {}
+[12.549638] (-) TimerEvent: {}
+[12.650681] (-) TimerEvent: {}
+[12.930044] (-) TimerEvent: {}
+[13.030570] (-) TimerEvent: {}
+[13.255011] (-) TimerEvent: {}
+[13.355372] (-) TimerEvent: {}
+[13.474056] (-) TimerEvent: {}
+[13.574528] (-) TimerEvent: {}
+[13.681905] (-) TimerEvent: {}
+[13.802529] (-) TimerEvent: {}
+[13.905868] (-) TimerEvent: {}
+[14.006847] (-) TimerEvent: {}
+[14.108620] (-) TimerEvent: {}
+[14.209826] (-) TimerEvent: {}
+[14.310444] (-) TimerEvent: {}
+[14.412255] (-) TimerEvent: {}
+[14.528966] (-) TimerEvent: {}
+[14.629371] (-) TimerEvent: {}
+[14.729832] (-) TimerEvent: {}
+[14.831176] (-) TimerEvent: {}
+[14.931668] (-) TimerEvent: {}
+[15.032110] (-) TimerEvent: {}
+[15.133017] (-) TimerEvent: {}
+[15.235824] (-) TimerEvent: {}
+[15.337186] (-) TimerEvent: {}
+[15.437697] (-) TimerEvent: {}
+[15.538643] (-) TimerEvent: {}
+[15.639586] (-) TimerEvent: {}
+[15.739954] (-) TimerEvent: {}
+[15.862264] (-) TimerEvent: {}
+[15.962586] (-) TimerEvent: {}
+[16.063006] (-) TimerEvent: {}
+[16.163772] (-) TimerEvent: {}
+[16.264251] (-) TimerEvent: {}
+[16.365059] (-) TimerEvent: {}
+[16.465761] (-) TimerEvent: {}
+[16.566331] (-) TimerEvent: {}
+[16.667615] (-) TimerEvent: {}
+[16.768290] (-) TimerEvent: {}
+[16.868980] (-) TimerEvent: {}
+[16.969677] (-) TimerEvent: {}
+[17.070435] (-) TimerEvent: {}
+[17.165556] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[17.166716] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/demo02_listener_str.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.166940] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.170604] (cpp01_topic) CommandEnded: {'returncode': 2}
+[17.171026] (-) TimerEvent: {}
+[17.181947] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[17.193816] (-) EventReactorShutdown: {}

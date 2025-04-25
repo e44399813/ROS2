@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/py01_topic/py01_topic.egg-info/PKG-INFO
+../build/py01_topic/py01_topic.egg-info/SOURCES.txt
+../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+../build/py01_topic/py01_topic.egg-info/entry_points.txt
+../build/py01_topic/py01_topic.egg-info/requires.txt
+../build/py01_topic/py01_topic.egg-info/top_level.txt
+../build/py01_topic/py01_topic.egg-info/zip-safe
+py01_topic/__init__.py
+py01_topic/demo01_talker_str_py.py
+resource/py01_topic
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

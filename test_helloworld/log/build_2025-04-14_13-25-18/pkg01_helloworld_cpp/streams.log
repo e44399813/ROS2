@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp -- -j2 -l2
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o[0m
+[4.302s] [100%] [32m[1mLinking CXX executable helloworld[0m
+[4.570s] [100%] Built target helloworld
+[4.586s] Invoked command in '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp -- -j2 -l2
+[4.597s] Invoking command in '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp
+[4.607s] -- Install configuration: ""
+[4.607s] -- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld
+[4.608s] -- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld" to ""
+[4.608s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp
+[4.610s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp
+[4.610s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh
+[4.610s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv
+[4.610s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh
+[4.610s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv
+[4.610s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash
+[4.612s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh
+[4.612s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh
+[4.613s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv
+[4.613s] -- Installing: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv
+[4.613s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp
+[4.614s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake
+[4.614s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake
+[4.614s] -- Up-to-date: /home/lihaoting/ROS2/test_helloworld/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml
+[4.616s] Invoked command in '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp

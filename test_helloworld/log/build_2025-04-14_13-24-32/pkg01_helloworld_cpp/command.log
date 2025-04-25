@@ -1,0 +1,2 @@
+Invoking command in '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp -- -j2 -l2
+Invoked command in '/home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/test_helloworld/build/pkg01_helloworld_cpp -- -j2 -l2
