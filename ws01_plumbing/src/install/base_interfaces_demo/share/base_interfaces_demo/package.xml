@@ -8,9 +8,16 @@
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
+  <!-- action构建工具依赖 -->
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <!-- 动作通讯自定义接口信息的依赖 -->
+  <depend>action_msgs</depend>
+  <!-- 编译依赖 -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <!-- 执行依赖 -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <!-- 声明当前包所属的功能包组 -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
 
   <export>
     <build_type>ament_cmake</build_type>

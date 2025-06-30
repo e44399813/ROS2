@@ -1,0 +1,310 @@
+[0.125s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.125s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75f7abf710a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75f7abf70f50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75f7abf70f50>>)
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.170s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lihaoting/ROS2/ws01_plumbing/src'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(base_interfaces_demo) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(base_interfaces_demo) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(base_interfaces_demo) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(base_interfaces_demo) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(base_interfaces_demo) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(base_interfaces_demo) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(base_interfaces_demo) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(base_interfaces_demo) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(cpp01_topic) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(cpp02_service) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp02_service' with type 'ros.ament_cmake' and name 'cpp02_service'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(cpp03_action) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp03_action' with type 'ros.ament_cmake' and name 'cpp03_action'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.228s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lihaoting/.local/share/Trash/files/install' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'base_interfaces_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo', 'merge_install': False, 'path': '/home/lihaoting/ROS2/ws01_plumbing/src/base_interfaces_demo', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic', 'merge_install': False, 'path': '/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'cpp02_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service', 'merge_install': False, 'path': '/home/lihaoting/ROS2/ws01_plumbing/src/cpp02_service', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'cpp03_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action', 'merge_install': False, 'path': '/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action', 'symlink_install': False, 'test_result_base': None}
+[0.288s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lihaoting/ROS2/ws01_plumbing/src/base_interfaces_demo' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lihaoting/ROS2/ws01_plumbing/src/base_interfaces_demo'
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo -- -j2 -l2
+[1.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo -- -j2 -l2
+[1.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo
+[2.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[2.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo' for CMake module files
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo' for CMake config files
+[2.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[2.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib'
+[2.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/bin'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages'
+[2.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'pythonpath')
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.ps1'
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.dsv'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.sh'
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/bin'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[2.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[2.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo' for CMake module files
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo' for CMake config files
+[2.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[2.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[2.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib'
+[2.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/bin'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages'
+[2.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'pythonpath')
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.dsv'
+[2.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.sh'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/bin'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[2.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[2.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[2.094s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic' with build type 'ament_cmake'
+[2.094s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic'
+[2.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.100s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lihaoting/ROS2/ws01_plumbing/src/cpp02_service' with build type 'ament_cmake'
+[2.101s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lihaoting/ROS2/ws01_plumbing/src/cpp02_service'
+[2.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic -- -j2 -l2
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service -- -j2 -l2
+[2.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service -- -j2 -l2
+[2.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service
+[2.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic -- -j2 -l2
+[2.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic
+[2.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[2.427s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service' for CMake module files
+[2.427s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service' for CMake config files
+[2.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[2.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service
+[2.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[2.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib'
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/bin'
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/python3.12/site-packages'
+[2.435s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/bin'
+[2.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.ps1'
+[2.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.dsv'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.sh'
+[2.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.bash'
+[2.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.zsh'
+[2.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[2.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[2.448s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service' for CMake module files
+[2.449s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service' for CMake config files
+[2.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[2.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[2.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[2.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib'
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/bin'
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/python3.12/site-packages'
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/bin'
+[2.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.ps1'
+[2.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.dsv'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.sh'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.bash'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.zsh'
+[2.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[2.462s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action' with build type 'ament_cmake'
+[2.462s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action'
+[2.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic' for CMake module files
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic' for CMake config files
+[2.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic
+[2.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[2.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[2.483s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib'
+[2.483s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/bin'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib/python3.12/site-packages'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/bin'
+[2.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[2.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[2.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.sh'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.bash'
+[2.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[2.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[2.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic' for CMake module files
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic' for CMake config files
+[2.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[2.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/bin'
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[2.497s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/lib/python3.12/site-packages'
+[2.498s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/bin'
+[2.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[2.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[2.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.sh'
+[2.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.bash'
+[2.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[2.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[2.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action -- -j2 -l2
+[4.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action' returned '2': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action -- -j2 -l2
+[4.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action' for CMake module files
+[4.719s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action' for CMake config files
+[4.720s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/bin'
+[4.722s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[4.722s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/lib/python3.12/site-packages'
+[4.723s] Level 1:colcon.colcon_core.environment:checking '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/bin'
+[4.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/package.ps1'
+[4.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/package.dsv'
+[4.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/package.sh'
+[4.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/package.bash'
+[4.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/package.zsh'
+[4.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[4.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[4.751s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.792s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.833s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lihaoting/ROS2/ws01_plumbing/src/install/local_setup.ps1'
+[4.834s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lihaoting/ROS2/ws01_plumbing/src/install/_local_setup_util_ps1.py'
+[4.859s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lihaoting/ROS2/ws01_plumbing/src/install/setup.ps1'
+[4.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lihaoting/ROS2/ws01_plumbing/src/install/local_setup.sh'
+[4.875s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lihaoting/ROS2/ws01_plumbing/src/install/_local_setup_util_sh.py'
+[4.884s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lihaoting/ROS2/ws01_plumbing/src/install/setup.sh'
+[4.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lihaoting/ROS2/ws01_plumbing/src/install/local_setup.bash'
+[4.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lihaoting/ROS2/ws01_plumbing/src/install/setup.bash'
+[4.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lihaoting/ROS2/ws01_plumbing/src/install/local_setup.zsh'
+[4.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lihaoting/ROS2/ws01_plumbing/src/install/setup.zsh'

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_interfaces_demo/srv/AddInts_Request",
+      "fields": [
+        {
+          "name": "num1",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "num2",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_interfaces_demo/srv/AddInts_Request",
+      "hash_string": "RIHS01_00c006d23aa2e6742a1826a945bd7bd8fd41e11d1f8dabcde5be928ab6350bd7"
+    }
+  ]
+}

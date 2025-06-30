@@ -1,0 +1,12 @@
+setup.py
+base_interfaces_demo/__init__.py
+base_interfaces_demo.egg-info/PKG-INFO
+base_interfaces_demo.egg-info/SOURCES.txt
+base_interfaces_demo.egg-info/dependency_links.txt
+base_interfaces_demo.egg-info/top_level.txt
+base_interfaces_demo/action/__init__.py
+base_interfaces_demo/action/_progress.py
+base_interfaces_demo/msg/__init__.py
+base_interfaces_demo/msg/_student.py
+base_interfaces_demo/srv/__init__.py
+base_interfaces_demo/srv/_add_ints.py

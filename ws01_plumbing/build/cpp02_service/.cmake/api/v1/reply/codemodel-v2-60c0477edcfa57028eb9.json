@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7bddd376f47b63e38ef0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp02_service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp02_service_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp02_service_uninstall-575febd31268920b9c5a.json",
+					"name" : "cpp02_service_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_server-64982f2f2a069fe9b8d1.json",
+					"name" : "demo01_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_client-f8279a3e77bf9b288c18.json",
+					"name" : "demo02_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-db1a259c4cc1633fba5a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lihaoting/ROS2/ws01_plumbing/build/cpp02_service",
+		"source" : "/home/lihaoting/ROS2/ws01_plumbing/src/cpp02_service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

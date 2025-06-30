@@ -1,0 +1,51 @@
+[0.093s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service -- -j2 -l2
+[0.639s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.608s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.911s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.976s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.227s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.570s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.597s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.106s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.449s] -- Found base_interfaces_demo: 0.0.0 (/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[3.781s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.582s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.584s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lihaoting/ROS2/ws01_plumbing/src/cpp02_service/include>
+[4.584s] -- Configured cppcheck exclude dirs and/or files: 
+[4.596s] -- Added test 'lint_cmake' to check CMake code style
+[4.606s] -- Added test 'uncrustify' to check C / C++ code style
+[4.606s] -- Configured uncrustify additional arguments: 
+[4.611s] -- Added test 'xmllint' to check XML markup files
+[4.621s] -- Configuring done (4.2s)
+[5.418s] -- Generating done (0.4s)
+[5.423s] -- Build files have been written to: /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service
+[5.554s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[5.568s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[26.345s] [ 75%] [32m[1mLinking CXX executable demo01_server[0m
+[26.574s] [100%] [32m[1mLinking CXX executable demo02_client[0m
+[29.039s] [100%] Built target demo01_server
+[29.044s] [100%] Built target demo02_client
+[29.078s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service -- -j2 -l2
+[29.080s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service
+[29.091s] -- Install configuration: ""
+[29.263s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/cpp02_service/demo01_server
+[29.263s] -- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/cpp02_service/demo01_server" to ""
+[29.363s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/cpp02_service/demo02_client
+[29.368s] -- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/cpp02_service/demo02_client" to ""
+[29.368s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[29.372s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[29.372s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[29.372s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[29.372s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/environment/path.sh
+[29.373s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[29.373s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/local_setup.bash
+[29.373s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/local_setup.sh
+[29.373s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[29.373s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[29.373s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.dsv
+[29.376s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[29.376s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[29.376s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[29.376s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.xml
+[29.381s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service

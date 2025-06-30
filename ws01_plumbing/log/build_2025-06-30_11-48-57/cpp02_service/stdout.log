@@ -1,0 +1,20 @@
+[ 50%] Built target demo01_server
+[100%] Built target demo02_client
+-- Install configuration: ""
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.sh
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.bash
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.sh
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+-- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.xml

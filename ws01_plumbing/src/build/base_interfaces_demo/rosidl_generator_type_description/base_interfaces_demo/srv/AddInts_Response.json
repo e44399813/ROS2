@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_interfaces_demo/srv/AddInts_Response",
+      "fields": [
+        {
+          "name": "sum",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_interfaces_demo/srv/AddInts_Response",
+      "hash_string": "RIHS01_a4b69587f4c15d2c0aa67bf10b26fc484d0118d0bcfe3dc0a9d352dd5b90e6d2"
+    }
+  ]
+}

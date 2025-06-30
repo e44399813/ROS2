@@ -223,6 +223,32 @@ demo02_listener_str/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_listener_str.dir/build.make CMakeFiles/demo02_listener_str.dir/build
 .PHONY : demo02_listener_str/fast
 
+#=============================================================================
+# Target rules for targets named demo03_talker_stu
+
+# Build rule for target.
+demo03_talker_stu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo03_talker_stu
+.PHONY : demo03_talker_stu
+
+# fast build rule for target.
+demo03_talker_stu/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/build
+.PHONY : demo03_talker_stu/fast
+
+#=============================================================================
+# Target rules for targets named demo04_listener_stu
+
+# Build rule for target.
+demo04_listener_stu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo04_listener_stu
+.PHONY : demo04_listener_stu
+
+# fast build rule for target.
+demo04_listener_stu/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_stu.dir/build.make CMakeFiles/demo04_listener_stu.dir/build
+.PHONY : demo04_listener_stu/fast
+
 src/demo01_talker_str.o: src/demo01_talker_str.cpp.o
 .PHONY : src/demo01_talker_str.o
 
@@ -271,6 +297,54 @@ src/demo02_listener_str.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_listener_str.dir/build.make CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.s
 .PHONY : src/demo02_listener_str.cpp.s
 
+src/demo03_talker_stu.o: src/demo03_talker_stu.cpp.o
+.PHONY : src/demo03_talker_stu.o
+
+# target to build an object file
+src/demo03_talker_stu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o
+.PHONY : src/demo03_talker_stu.cpp.o
+
+src/demo03_talker_stu.i: src/demo03_talker_stu.cpp.i
+.PHONY : src/demo03_talker_stu.i
+
+# target to preprocess a source file
+src/demo03_talker_stu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.i
+.PHONY : src/demo03_talker_stu.cpp.i
+
+src/demo03_talker_stu.s: src/demo03_talker_stu.cpp.s
+.PHONY : src/demo03_talker_stu.s
+
+# target to generate assembly for a file
+src/demo03_talker_stu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.s
+.PHONY : src/demo03_talker_stu.cpp.s
+
+src/demo04_listener_stu.o: src/demo04_listener_stu.cpp.o
+.PHONY : src/demo04_listener_stu.o
+
+# target to build an object file
+src/demo04_listener_stu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_stu.dir/build.make CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o
+.PHONY : src/demo04_listener_stu.cpp.o
+
+src/demo04_listener_stu.i: src/demo04_listener_stu.cpp.i
+.PHONY : src/demo04_listener_stu.i
+
+# target to preprocess a source file
+src/demo04_listener_stu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_stu.dir/build.make CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.i
+.PHONY : src/demo04_listener_stu.cpp.i
+
+src/demo04_listener_stu.s: src/demo04_listener_stu.cpp.s
+.PHONY : src/demo04_listener_stu.s
+
+# target to generate assembly for a file
+src/demo04_listener_stu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_stu.dir/build.make CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.s
+.PHONY : src/demo04_listener_stu.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +362,20 @@ help:
 	@echo "... uninstall"
 	@echo "... demo01_talker_str"
 	@echo "... demo02_listener_str"
+	@echo "... demo03_talker_stu"
+	@echo "... demo04_listener_stu"
 	@echo "... src/demo01_talker_str.o"
 	@echo "... src/demo01_talker_str.i"
 	@echo "... src/demo01_talker_str.s"
 	@echo "... src/demo02_listener_str.o"
 	@echo "... src/demo02_listener_str.i"
 	@echo "... src/demo02_listener_str.s"
+	@echo "... src/demo03_talker_stu.o"
+	@echo "... src/demo03_talker_stu.i"
+	@echo "... src/demo03_talker_stu.s"
+	@echo "... src/demo04_listener_stu.o"
+	@echo "... src/demo04_listener_stu.i"
+	@echo "... src/demo04_listener_stu.s"
 .PHONY : help
 
 

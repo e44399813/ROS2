@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:47 (install):
+  install does not recognize sub-command TARGET
+
+[0m
+gmake: *** [Makefile:390：cmake_check_build_system] 错误 1

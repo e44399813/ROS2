@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.001585] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.001656] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.001779] (cpp02_service) JobQueued: {'identifier': 'cpp02_service', 'dependencies': OrderedDict({'base_interfaces_demo': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo'})}
+[0.001824] (cpp02_service) JobStarted: {'identifier': 'cpp02_service'}
+[0.100012] (-) TimerEvent: {}
+[0.119022] (cpp02_service) JobProgress: {'identifier': 'cpp02_service', 'progress': 'cmake'}
+[0.144778] (cpp02_service) JobProgress: {'identifier': 'cpp02_service', 'progress': 'build'}
+[0.144843] (cpp02_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service', '--', '-j2', '-l2'], 'cwd': '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lihaoting', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lihaoting/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/190/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/lihaoting/ROS2/ws01_plumbing', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/190/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lihaoting/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/190/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/190/usr/share/code/code', 'MANAGERPID': '1896', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2329', 'BUNDLED_DEBUGPY_PATH': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4555', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'JOURNAL_STREAM': '9:25236', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/lihaoting/miniconda3/bin:/home/lihaoting/miniconda3/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/2264,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/2264', 'GTK_EXE_PREFIX': '/snap/code/190/usr', 'INVOCATION_ID': 'ff97554126084024aaac4ac2219fa8c4', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/190/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7abc49823bd940c1.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lihaoting/snap/code/190/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ1H62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a2fd3a9cd9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lihaoting/snap/code/190/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lihaoting/snap/code/190/.local/share:/home/lihaoting/snap/code/190:/snap/code/190/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic:/opt/ros/jazzy'}), 'shell': False}
+[0.201054] (-) TimerEvent: {}
+[0.301758] (-) TimerEvent: {}
+[0.402066] (-) TimerEvent: {}
+[0.502408] (-) TimerEvent: {}
+[0.603100] (-) TimerEvent: {}
+[0.703409] (-) TimerEvent: {}
+[0.813234] (-) TimerEvent: {}
+[0.829753] (cpp02_service) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o\x1b[0m\n'}
+[0.853323] (cpp02_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o\x1b[0m\n'}
+[0.913364] (-) TimerEvent: {}
+[1.014981] (-) TimerEvent: {}
+[1.115371] (-) TimerEvent: {}
+[1.217851] (-) TimerEvent: {}
+[1.318217] (-) TimerEvent: {}
+[1.419180] (-) TimerEvent: {}
+[1.519837] (-) TimerEvent: {}
+[1.620552] (-) TimerEvent: {}
+[1.739041] (-) TimerEvent: {}
+[1.868640] (-) TimerEvent: {}
+[1.972904] (-) TimerEvent: {}
+[2.076869] (-) TimerEvent: {}
+[2.177799] (-) TimerEvent: {}
+[2.278903] (-) TimerEvent: {}
+[2.392668] (-) TimerEvent: {}
+[2.493615] (-) TimerEvent: {}
+[2.598258] (-) TimerEvent: {}
+[2.699180] (-) TimerEvent: {}
+[2.799501] (-) TimerEvent: {}
+[2.912865] (-) TimerEvent: {}
+[3.014655] (-) TimerEvent: {}
+[3.115317] (-) TimerEvent: {}
+[3.233373] (-) TimerEvent: {}
+[3.333873] (-) TimerEvent: {}
+[3.460431] (-) TimerEvent: {}
+[3.561354] (-) TimerEvent: {}
+[3.661814] (-) TimerEvent: {}
+[3.762505] (-) TimerEvent: {}
+[3.868986] (-) TimerEvent: {}
+[3.969861] (-) TimerEvent: {}
+[4.070128] (-) TimerEvent: {}
+[4.171228] (-) TimerEvent: {}
+[4.272567] (-) TimerEvent: {}
+[4.373186] (-) TimerEvent: {}
+[4.479067] (-) TimerEvent: {}
+[4.585883] (-) TimerEvent: {}
+[4.686803] (-) TimerEvent: {}
+[4.787150] (-) TimerEvent: {}
+[4.887500] (-) TimerEvent: {}
+[4.988248] (-) TimerEvent: {}
+[5.088667] (-) TimerEvent: {}
+[5.189117] (-) TimerEvent: {}
+[5.289395] (-) TimerEvent: {}
+[5.390847] (-) TimerEvent: {}
+[5.499578] (-) TimerEvent: {}
+[5.600368] (-) TimerEvent: {}
+[5.700736] (-) TimerEvent: {}
+[5.823677] (-) TimerEvent: {}
+[5.924256] (-) TimerEvent: {}
+[6.028910] (-) TimerEvent: {}
+[6.158634] (-) TimerEvent: {}
+[6.259209] (-) TimerEvent: {}
+[6.359716] (-) TimerEvent: {}
+[6.460599] (-) TimerEvent: {}
+[6.564315] (-) TimerEvent: {}
+[6.664778] (-) TimerEvent: {}
+[6.765972] (-) TimerEvent: {}
+[6.867022] (-) TimerEvent: {}
+[6.968523] (-) TimerEvent: {}
+[7.070153] (-) TimerEvent: {}
+[7.174837] (-) TimerEvent: {}
+[7.275470] (-) TimerEvent: {}
+[7.380821] (-) TimerEvent: {}
+[7.483520] (-) TimerEvent: {}
+[7.584738] (-) TimerEvent: {}
+[7.690342] (-) TimerEvent: {}
+[7.791817] (-) TimerEvent: {}
+[7.892313] (-) TimerEvent: {}
+[7.995104] (-) TimerEvent: {}
+[8.095887] (-) TimerEvent: {}
+[8.199050] (-) TimerEvent: {}
+[8.299772] (-) TimerEvent: {}
+[8.401770] (-) TimerEvent: {}
+[8.504319] (-) TimerEvent: {}
+[8.604960] (-) TimerEvent: {}
+[8.720620] (-) TimerEvent: {}
+[8.820919] (-) TimerEvent: {}
+[8.923052] (-) TimerEvent: {}
+[9.023653] (-) TimerEvent: {}
+[9.130097] (-) TimerEvent: {}
+[9.231118] (-) TimerEvent: {}
+[9.335357] (-) TimerEvent: {}
+[9.445017] (-) TimerEvent: {}
+[9.545663] (-) TimerEvent: {}
+[9.650612] (-) TimerEvent: {}
+[9.750961] (-) TimerEvent: {}
+[9.860037] (-) TimerEvent: {}
+[9.961766] (-) TimerEvent: {}
+[10.062553] (-) TimerEvent: {}
+[10.163472] (-) TimerEvent: {}
+[10.268679] (-) TimerEvent: {}
+[10.369033] (-) TimerEvent: {}
+[10.472125] (-) TimerEvent: {}
+[11.295683] (-) TimerEvent: {}
+[11.519688] (-) TimerEvent: {}
+[12.018443] (-) TimerEvent: {}
+[12.118886] (-) TimerEvent: {}
+[12.221026] (-) TimerEvent: {}
+[12.325630] (-) TimerEvent: {}
+[12.431593] (-) TimerEvent: {}
+[12.531966] (-) TimerEvent: {}
+[12.690025] (-) TimerEvent: {}
+[12.800708] (-) TimerEvent: {}
+[12.901019] (-) TimerEvent: {}
+[13.002210] (-) TimerEvent: {}
+[13.103563] (-) TimerEvent: {}
+[13.204505] (-) TimerEvent: {}
+[13.305349] (-) TimerEvent: {}
+[13.406091] (-) TimerEvent: {}
+[13.509418] (-) TimerEvent: {}
+[13.611037] (-) TimerEvent: {}
+[13.712152] (-) TimerEvent: {}
+[13.828678] (-) TimerEvent: {}
+[13.930329] (-) TimerEvent: {}
+[14.030722] (-) TimerEvent: {}
+[14.131954] (-) TimerEvent: {}
+[14.232230] (-) TimerEvent: {}
+[14.333212] (-) TimerEvent: {}
+[14.434022] (-) TimerEvent: {}
+[14.535610] (-) TimerEvent: {}
+[14.642723] (-) TimerEvent: {}
+[14.745588] (-) TimerEvent: {}
+[14.846301] (-) TimerEvent: {}
+[14.946742] (-) TimerEvent: {}
+[15.047567] (-) TimerEvent: {}
+[15.157178] (-) TimerEvent: {}
+[15.259628] (-) TimerEvent: {}
+[15.362557] (-) TimerEvent: {}
+[15.463337] (-) TimerEvent: {}
+[15.572941] (-) TimerEvent: {}
+[15.678698] (-) TimerEvent: {}
+[16.038982] (-) TimerEvent: {}
+[16.139325] (-) TimerEvent: {}
+[16.245169] (-) TimerEvent: {}
+[16.345640] (-) TimerEvent: {}
+[16.448903] (-) TimerEvent: {}
+[16.549314] (-) TimerEvent: {}
+[16.649872] (-) TimerEvent: {}
+[16.750201] (-) TimerEvent: {}
+[16.851193] (-) TimerEvent: {}
+[16.952051] (-) TimerEvent: {}
+[17.053856] (-) TimerEvent: {}
+[17.154566] (-) TimerEvent: {}
+[17.256900] (-) TimerEvent: {}
+[17.357949] (-) TimerEvent: {}
+[17.458262] (-) TimerEvent: {}
+[17.558818] (-) TimerEvent: {}
+[17.659830] (-) TimerEvent: {}
+[17.764025] (-) TimerEvent: {}
+[17.874420] (-) TimerEvent: {}
+[17.979244] (-) TimerEvent: {}
+[18.079755] (-) TimerEvent: {}
+[18.180212] (-) TimerEvent: {}
+[18.280787] (-) TimerEvent: {}
+[18.383551] (-) TimerEvent: {}
+[18.485233] (-) TimerEvent: {}
+[18.586579] (-) TimerEvent: {}
+[18.694740] (-) TimerEvent: {}
+[18.795063] (-) TimerEvent: {}
+[18.895444] (-) TimerEvent: {}
+[18.995792] (-) TimerEvent: {}
+[19.097065] (-) TimerEvent: {}
+[19.197971] (-) TimerEvent: {}
+[19.298571] (-) TimerEvent: {}
+[19.399096] (-) TimerEvent: {}
+[19.501120] (-) TimerEvent: {}
+[19.601425] (-) TimerEvent: {}
+[19.701746] (-) TimerEvent: {}
+[19.803279] (-) TimerEvent: {}
+[19.904649] (-) TimerEvent: {}
+[20.005210] (-) TimerEvent: {}
+[20.105809] (-) TimerEvent: {}
+[20.207857] (-) TimerEvent: {}
+[20.319176] (-) TimerEvent: {}
+[20.419668] (-) TimerEvent: {}
+[20.520554] (-) TimerEvent: {}
+[20.621066] (-) TimerEvent: {}
+[20.726873] (-) TimerEvent: {}
+[20.827527] (-) TimerEvent: {}
+[20.928458] (-) TimerEvent: {}
+[21.029400] (-) TimerEvent: {}
+[21.137421] (-) TimerEvent: {}
+[21.237772] (-) TimerEvent: {}
+[21.338652] (-) TimerEvent: {}
+[21.438992] (-) TimerEvent: {}
+[21.548655] (-) TimerEvent: {}
+[21.649369] (-) TimerEvent: {}
+[21.752811] (-) TimerEvent: {}
+[21.853421] (-) TimerEvent: {}
+[21.960530] (-) TimerEvent: {}
+[22.061117] (-) TimerEvent: {}
+[22.163610] (-) TimerEvent: {}
+[22.280225] (-) TimerEvent: {}
+[22.380762] (-) TimerEvent: {}
+[22.481714] (-) TimerEvent: {}
+[22.582129] (-) TimerEvent: {}
+[22.682641] (-) TimerEvent: {}
+[22.783300] (-) TimerEvent: {}
+[22.884369] (-) TimerEvent: {}
+[22.991643] (-) TimerEvent: {}
+[23.100600] (-) TimerEvent: {}
+[23.201212] (-) TimerEvent: {}
+[23.311571] (-) TimerEvent: {}
+[23.421011] (-) TimerEvent: {}
+[23.521286] (-) TimerEvent: {}
+[23.623955] (-) TimerEvent: {}
+[23.726555] (-) TimerEvent: {}
+[23.837164] (-) TimerEvent: {}
+[23.942090] (-) TimerEvent: {}
+[24.052585] (-) TimerEvent: {}
+[24.152991] (-) TimerEvent: {}
+[24.253731] (-) TimerEvent: {}
+[24.354775] (-) TimerEvent: {}
+[24.455306] (-) TimerEvent: {}
+[24.556114] (-) TimerEvent: {}
+[24.656483] (-) TimerEvent: {}
+[24.783805] (-) TimerEvent: {}
+[24.886637] (-) TimerEvent: {}
+[24.992549] (-) TimerEvent: {}
+[25.095699] (-) TimerEvent: {}
+[25.196385] (-) TimerEvent: {}
+[25.296660] (-) TimerEvent: {}
+[25.397275] (-) TimerEvent: {}
+[25.498756] (-) TimerEvent: {}
+[25.601565] (-) TimerEvent: {}
+[25.701800] (-) TimerEvent: {}
+[25.802788] (-) TimerEvent: {}
+[25.904375] (-) TimerEvent: {}
+[26.004958] (-) TimerEvent: {}
+[26.074462] (cpp02_service) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo01_server\x1b[0m\n'}
+[26.079658] (cpp02_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_client\x1b[0m\n'}
+[26.105555] (-) TimerEvent: {}
+[26.205906] (-) TimerEvent: {}
+[26.306532] (-) TimerEvent: {}
+[26.407305] (-) TimerEvent: {}
+[26.509864] (-) TimerEvent: {}
+[26.610255] (-) TimerEvent: {}
+[26.712553] (-) TimerEvent: {}
+[26.813321] (-) TimerEvent: {}
+[26.915709] (-) TimerEvent: {}
+[26.952747] (cpp02_service) StdoutLine: {'line': b'[100%] Built target demo01_server\n'}
+[26.991832] (cpp02_service) StdoutLine: {'line': b'[100%] Built target demo02_client\n'}
+[27.015876] (-) TimerEvent: {}
+[27.028021] (cpp02_service) CommandEnded: {'returncode': 0}
+[27.057457] (cpp02_service) JobProgress: {'identifier': 'cpp02_service', 'progress': 'install'}
+[27.069917] (cpp02_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service'], 'cwd': '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lihaoting', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lihaoting/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/190/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lihaoting', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/lihaoting/ROS2/ws01_plumbing', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/190/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lihaoting/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/190/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/190/usr/share/code/code', 'MANAGERPID': '1896', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2329', 'BUNDLED_DEBUGPY_PATH': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4555', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lihaoting', 'JOURNAL_STREAM': '9:25236', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lihaoting', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/lihaoting/miniconda3/bin:/home/lihaoting/miniconda3/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/lihaoting-VMware-Virtual-Platform:@/tmp/.ICE-unix/2264,unix/lihaoting-VMware-Virtual-Platform:/tmp/.ICE-unix/2264', 'GTK_EXE_PREFIX': '/snap/code/190/usr', 'INVOCATION_ID': 'ff97554126084024aaac4ac2219fa8c4', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/190/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lihaoting/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7abc49823bd940c1.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lihaoting/snap/code/190/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ1H62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a2fd3a9cd9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lihaoting/snap/code/190/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp02_service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lihaoting/snap/code/190/.local/share:/home/lihaoting/snap/code/190:/snap/code/190/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service:/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp01_topic:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/lihaoting/ROS2/ws01_plumbing/src/install/py01_topic:/opt/ros/jazzy'}), 'shell': False}
+[27.101287] (cpp02_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.111042] (cpp02_service) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/cpp02_service/demo01_server\n'}
+[27.113402] (cpp02_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/cpp02_service/demo01_server" to ""\n'}
+[27.116217] (-) TimerEvent: {}
+[27.147001] (cpp02_service) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/cpp02_service/demo02_client\n'}
+[27.151123] (cpp02_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/lib/cpp02_service/demo02_client" to ""\n'}
+[27.151353] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service\n'}
+[27.151515] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service\n'}
+[27.151648] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh\n'}
+[27.151834] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv\n'}
+[27.152062] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/environment/path.sh\n'}
+[27.152221] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/environment/path.dsv\n'}
+[27.152415] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/local_setup.bash\n'}
+[27.153429] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/local_setup.sh\n'}
+[27.153647] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/local_setup.zsh\n'}
+[27.153785] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/local_setup.dsv\n'}
+[27.153950] (cpp02_service) StdoutLine: {'line': b'-- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.dsv\n'}
+[27.174909] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service\n'}
+[27.175276] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake\n'}
+[27.175469] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake\n'}
+[27.175738] (cpp02_service) StdoutLine: {'line': b'-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp02_service/share/cpp02_service/package.xml\n'}
+[27.178026] (cpp02_service) CommandEnded: {'returncode': 0}
+[27.216487] (-) TimerEvent: {}
+[27.317138] (-) TimerEvent: {}
+[27.363637] (cpp02_service) JobEnded: {'identifier': 'cpp02_service', 'rc': 0}
+[27.364971] (-) EventReactorShutdown: {}

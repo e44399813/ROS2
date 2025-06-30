@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "base_interfaces_demo__py",
+		"source" : "/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo/base_interfaces_demo__py"
+	}
+}

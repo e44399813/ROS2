@@ -1,0 +1,22 @@
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:53:13:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Krclcpp::shutdown[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   53 |     [01;35m[Krclcpp::shutdown[m[K;
+      |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:53:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:6[m[K:
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In member function ‘[01m[Kvoid MiniSubscriber::[01;32m[Ktopic_callback[m[K(const base_interfaces_demo::msg::Student&) const[m[K’:
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:17:94:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::[01;32m[Kc_str[m[K() const [35m[K[with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K[m[K’
+   17 |  RCLCPP_INFO(this->get_logger(), "订阅的学生信息:姓名:%s,年龄:%d,身高:%.2f", [01;31m[Kmsg.name.c_str[m[K, msg.age, msg.height);
+      |                                                                              [01;31m[K~~~~~~~~~^~~~~[m[K
+
+In file included from [01m[K/usr/include/c++/13/string:54[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18[m[K:
+[01m[K/usr/include/c++/13/bits/basic_string.h:2595:7:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2595 |       [01;36m[Kc_str[m[K() const _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:76：CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listener_stu.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

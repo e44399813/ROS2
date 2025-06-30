@@ -1,0 +1,49 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found base_interfaces_demo: 0.0.0 (/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action
+[ 12%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable demo02_action_client[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:188：demo02_action_client] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/demo02_action_client.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:99:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kexplicit[m[K’ outside class declaration
+   99 | [01;31m[Kexplicit[m[K MiniActionServer::MiniActionServer(const rclcpp::NodeOptions & options = rclcpp::NodeOptions())
+      | [01;31m[K^~~~~~~~[m[K
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:99:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KMiniActionServer::[01;32m[KMiniActionServer[m[K(const rclcpp::NodeOptions&)[m[K’
+   99 | explicit [01;31m[KMiniActionServer[m[K::MiniActionServer(const rclcpp::NodeOptions & options = rclcpp::NodeOptions())
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:27:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KMiniActionServer::[01;32m[KMiniActionServer[m[K(const MiniActionServer&)[m[K’
+   27 | class [01;36m[KMiniActionServer[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:94:3:[m[K [01;36m[Knote: [m[K                ‘[01m[KMiniActionServer::[01;32m[KMiniActionServer[m[K()[m[K’
+   94 |   [01;36m[KMiniActionServer[m[K(/* args */);
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:27:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MiniActionServer[m[K’ defined here
+   27 | class [01;36m[KMiniActionServer[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_action_server.dir/build.make:76：CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:143：CMakeFiles/demo01_action_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

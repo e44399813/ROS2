@@ -1,0 +1,225 @@
+[0.118s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo -- -j2 -l2
+[0.765s] [  1%] Built target base_interfaces_demo__rosidl_generator_type_description
+[0.874s] [  3%] Built target base_interfaces_demo__cpp
+[0.989s] [ 12%] Built target ament_cmake_python_copy_base_interfaces_demo
+[0.996s] [ 24%] Built target base_interfaces_demo__rosidl_generator_c
+[1.110s] [ 33%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[1.268s] [ 42%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[1.396s] [ 51%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[1.513s] [ 61%] Built target base_interfaces_demo__rosidl_typesupport_c
+[1.646s] [ 70%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[1.750s] [ 79%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[1.839s] [ 79%] Built target base_interfaces_demo
+[1.945s] [ 81%] Built target base_interfaces_demo__py
+[2.051s] [ 88%] Built target base_interfaces_demo__rosidl_generator_py
+[2.170s] running egg_info
+[2.222s] [ 92%] Built target base_interfaces_demo_s__rosidl_typesupport_fastrtps_c
+[2.237s] writing base_interfaces_demo.egg-info/PKG-INFO
+[2.237s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[2.240s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[2.319s] [ 96%] Built target base_interfaces_demo_s__rosidl_typesupport_introspection_c
+[2.412s] [100%] Built target base_interfaces_demo_s__rosidl_typesupport_c
+[2.419s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[2.420s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[2.535s] [100%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[2.587s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo -- -j2 -l2
+[2.631s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo
+[2.654s] -- Install configuration: ""
+[2.654s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[2.658s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.json
+[2.658s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.json
+[2.658s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.json
+[2.658s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.660s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.666s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.h
+[2.666s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.666s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.c
+[2.666s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__description.c
+[2.667s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c
+[2.667s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.h
+[2.667s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.h
+[2.667s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.h
+[2.667s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.667s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.h
+[2.667s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.671s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.h
+[2.671s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.c
+[2.671s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.h
+[2.672s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.c
+[2.672s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__description.c
+[2.672s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.h
+[2.672s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.672s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[2.672s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.674s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__description.c
+[2.674s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h
+[2.674s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h
+[2.677s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h
+[2.677s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c
+[2.677s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[2.680s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h
+[2.680s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[2.680s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[2.700s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[2.701s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.701s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.704s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.704s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_c.h
+[2.704s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.706s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.706s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_c.h
+[2.706s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.707s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.710s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[2.712s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.715s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[2.715s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.715s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.715s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.715s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c
+[2.719s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h
+[2.719s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.719s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.720s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_c.h
+[2.720s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.c
+[2.765s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.765s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.765s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.765s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[2.766s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[2.775s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[2.779s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.hpp
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.hpp
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.hpp
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__traits.hpp
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__builder.hpp
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.hpp
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__builder.hpp
+[2.780s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.hpp
+[2.781s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__traits.hpp
+[2.781s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.hpp
+[2.781s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.hpp
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.792s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.793s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps
+[2.793s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.793s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.793s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.793s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/dds_fastrtps
+[2.793s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp
+[2.793s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.795s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.795s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.796s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps
+[2.796s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[2.805s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[2.805s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.805s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.805s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.805s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.805s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.cpp
+[2.806s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[2.806s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[2.806s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.cpp
+[2.806s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp
+[2.806s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.806s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.806s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[2.806s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp
+[2.831s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[2.846s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[2.848s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[2.848s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[2.848s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info
+[2.853s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info/PKG-INFO
+[2.853s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.853s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.855s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info/top_level.txt
+[2.855s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo
+[2.855s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+[2.855s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/__init__.py
+[2.856s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.so
+[2.856s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv
+[2.862s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv/_add_ints_s.c
+[2.862s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv/__init__.py
+[2.862s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv/_add_ints.py
+[2.862s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/action
+[2.862s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/action/__init__.py
+[2.862s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/action/_progress_s.c
+[2.862s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/action/_progress.py
+[2.863s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.so
+[2.863s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+[2.863s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.863s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.so
+[2.863s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg
+[2.863s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg/__init__.py
+[2.863s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg/_student_s.c
+[2.863s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg/_student.py
+[3.114s] Listing '/home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo'...
+[3.114s] Listing '/home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/action'...
+[3.114s] Listing '/home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg'...
+[3.114s] Listing '/home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv'...
+[3.164s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.so
+[3.166s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.so
+[3.174s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.so
+[3.187s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+[3.200s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.idl
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.idl
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.srv
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.action
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[3.201s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[3.202s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[3.202s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[3.202s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[3.202s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[3.202s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[3.202s] -- Installing: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[3.224s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[3.224s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+[3.225s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[3.237s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[3.240s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.241s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[3.241s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.253s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[3.255s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[3.260s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+[3.261s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.261s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.271s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[3.271s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.271s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[3.271s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[3.277s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+[3.277s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+[3.277s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[3.278s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.278s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.278s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[3.278s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[3.278s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.278s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.278s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[3.284s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[3.284s] -- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[3.294s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo

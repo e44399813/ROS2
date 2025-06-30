@@ -1,0 +1,4 @@
+source;share/cpp03_action/local_setup.bash
+source;share/cpp03_action/local_setup.dsv
+source;share/cpp03_action/local_setup.sh
+source;share/cpp03_action/local_setup.zsh

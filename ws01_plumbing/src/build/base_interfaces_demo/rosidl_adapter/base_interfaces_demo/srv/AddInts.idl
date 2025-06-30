@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from base_interfaces_demo/srv/AddInts.srv
+// generated code does not contain a copyright notice
+
+
+module base_interfaces_demo {
+  module srv {
+    struct AddInts_Request {
+      int32 num1;
+
+      int32 num2;
+    };
+    struct AddInts_Response {
+      int32 sum;
+    };
+  };
+};

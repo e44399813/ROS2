@@ -1,0 +1,14 @@
+[ 12%] [32m[1mLinking CXX executable demo02_action_client[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:188：demo02_action_client] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/demo02_action_client.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:95:12:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMiniActionServer::[m[K’ on member ‘[01m[KMiniActionServer[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   95 |   explicit [01;31m[KMiniActionServer[m[K::MiniActionServer(const rclcpp::NodeOptions &options = rclcpp::NodeOptions())
+      |            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_action_server.dir/build.make:76：CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:143：CMakeFiles/demo01_action_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

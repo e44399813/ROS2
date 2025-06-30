@@ -1,0 +1,53 @@
+[0.017s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo -- -j2 -l2
+[0.055s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.355s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.430s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.815s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.816s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.816s]   base_interfaces_demo --arguments-file
+[0.816s]   /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo/rosidl_adapter__arguments__base_interfaces_demo.json
+[0.816s]   --output-dir
+[0.816s]   /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo
+[0.816s]   --output-file
+[0.816s]   /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo.idls)
+[0.816s]   returned error code 1:
+[0.816s] 
+[0.816s]   Error processing 'string name;' of 'base_interfaces_demo/Student': ''name;'
+[0.817s]   is an invalid field name.  It should have the pattern
+[0.817s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.817s] 
+[0.817s]   Traceback (most recent call last):
+[0.817s] 
+[0.817s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.817s]     File "<frozen runpy>", line 88, in _run_code
+[0.817s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.819s]       sys.exit(main())
+[0.820s]                ^^^^^^
+[0.820s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.820s]       abs_idl_file = convert_to_idl(
+[0.820s]                      ^^^^^^^^^^^^^^^
+[0.820s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.820s]       return convert_msg_to_idl(
+[0.820s]              ^^^^^^^^^^^^^^^^^^^
+[0.820s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.820s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.820s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.820s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.820s]       fields.append(Field(
+[0.820s]                     ^^^^^^
+[0.821s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 355, in __init__
+[0.821s]       raise NameError(
+[0.821s] 
+[0.821s]   NameError: 'name;' is an invalid field name.  It should have the pattern
+[0.821s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.821s] 
+[0.821s] Call Stack (most recent call first):
+[0.821s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.821s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.821s] 
+[0.821s] [0m
+[0.821s] -- Configuring incomplete, errors occurred!
+[0.834s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.834s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/base_interfaces_demo -- -j2 -l2

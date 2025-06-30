@@ -1,0 +1,8 @@
+{
+  "package_name": "base_interfaces_demo",
+  "non_idl_tuples": [
+    "/home/lihaoting/ROS2/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg",
+    "/home/lihaoting/ROS2/ws01_plumbing/src/base_interfaces_demo:srv/AddInts.srv",
+    "/home/lihaoting/ROS2/ws01_plumbing/src/base_interfaces_demo:action/Progress.action"
+  ]
+}

@@ -2,6 +2,8 @@
 /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles/cpp01_topic_uninstall.dir
 /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles/demo01_talker_str.dir
 /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles/demo02_listener_str.dir
+/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles/demo03_talker_stu.dir
+/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles/demo04_listener_stu.dir
 /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles/test.dir
 /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles/edit_cache.dir
 /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles/rebuild_cache.dir

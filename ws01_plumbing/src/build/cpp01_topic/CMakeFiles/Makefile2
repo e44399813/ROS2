@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic
 # The main recursive "all" target.
 all: CMakeFiles/demo01_talker_str.dir/all
 all: CMakeFiles/demo02_listener_str.dir/all
+all: CMakeFiles/demo03_talker_stu.dir/all
+all: CMakeFiles/demo04_listener_stu.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp01_topic_uninstall.dir/clean
 clean: CMakeFiles/demo01_talker_str.dir/clean
 clean: CMakeFiles/demo02_listener_str.dir/clean
+clean: CMakeFiles/demo03_talker_stu.dir/clean
+clean: CMakeFiles/demo04_listener_stu.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -181,6 +185,58 @@ demo02_listener_str: CMakeFiles/demo02_listener_str.dir/rule
 CMakeFiles/demo02_listener_str.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_listener_str.dir/build.make CMakeFiles/demo02_listener_str.dir/clean
 .PHONY : CMakeFiles/demo02_listener_str.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo03_talker_stu.dir
+
+# All Build rule for target.
+CMakeFiles/demo03_talker_stu.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles --progress-num=5,6 "Built target demo03_talker_stu"
+.PHONY : CMakeFiles/demo03_talker_stu.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/demo03_talker_stu.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/demo03_talker_stu.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles 0
+.PHONY : CMakeFiles/demo03_talker_stu.dir/rule
+
+# Convenience name for target.
+demo03_talker_stu: CMakeFiles/demo03_talker_stu.dir/rule
+.PHONY : demo03_talker_stu
+
+# clean rule for target.
+CMakeFiles/demo03_talker_stu.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/clean
+.PHONY : CMakeFiles/demo03_talker_stu.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo04_listener_stu.dir
+
+# All Build rule for target.
+CMakeFiles/demo04_listener_stu.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_stu.dir/build.make CMakeFiles/demo04_listener_stu.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_stu.dir/build.make CMakeFiles/demo04_listener_stu.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles --progress-num=7,8 "Built target demo04_listener_stu"
+.PHONY : CMakeFiles/demo04_listener_stu.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/demo04_listener_stu.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/demo04_listener_stu.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic/CMakeFiles 0
+.PHONY : CMakeFiles/demo04_listener_stu.dir/rule
+
+# Convenience name for target.
+demo04_listener_stu: CMakeFiles/demo04_listener_stu.dir/rule
+.PHONY : demo04_listener_stu
+
+# clean rule for target.
+CMakeFiles/demo04_listener_stu.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_stu.dir/build.make CMakeFiles/demo04_listener_stu.dir/clean
+.PHONY : CMakeFiles/demo04_listener_stu.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

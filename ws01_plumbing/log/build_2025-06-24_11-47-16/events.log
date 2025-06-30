@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.002346] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.002388] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.002405] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.002420] (cpp03_action) JobQueued: {'identifier': 'cpp03_action', 'dependencies': OrderedDict({'base_interfaces_demo': '/home/lihaoting/ROS2/ws01_plumbing/install/base_interfaces_demo'})}
+[0.002442] (cpp03_action) JobStarted: {'identifier': 'cpp03_action'}
+[0.103269] (cpp03_action) JobEnded: {'identifier': 'cpp03_action', 'rc': 1}
+[0.103771] (-) TimerEvent: {}
+[0.116563] (-) EventReactorShutdown: {}

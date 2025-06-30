@@ -1,0 +1,3 @@
+/home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:msg/Student.idl
+/home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/AddInts.idl
+/home/lihaoting/ROS2/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:action/Progress.idl

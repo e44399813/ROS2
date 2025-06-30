@@ -1,0 +1,5 @@
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:53:13:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Krclcpp::shutdown[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   53 |     [01;35m[Krclcpp::shutdown[m[K;
+      |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:53:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]

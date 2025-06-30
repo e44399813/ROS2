@@ -1,0 +1,16 @@
+[0.032s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action -- -j2 -l2
+[0.257s] [ 12%] [32m[1mLinking CXX executable demo02_action_client[0m
+[0.268s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[0.591s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.591s] (.text+0x1b): undefined reference to `main'
+[0.597s] collect2: error: ld returned 1 exit status
+[0.600s] gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:188：demo02_action_client] 错误 1
+[0.601s] gmake[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/demo02_action_client.dir/all] 错误 2
+[0.602s] gmake[1]: *** 正在等待未完成的任务....
+[6.188s] [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:95:12:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMiniActionServer::[m[K’ on member ‘[01m[KMiniActionServer[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.188s]    95 |   explicit [01;31m[KMiniActionServer[m[K::MiniActionServer(const rclcpp::NodeOptions &options = rclcpp::NodeOptions())
+[6.188s]       |            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.424s] gmake[2]: *** [CMakeFiles/demo01_action_server.dir/build.make:76：CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o] 错误 1
+[7.424s] gmake[1]: *** [CMakeFiles/Makefile2:143：CMakeFiles/demo01_action_server.dir/all] 错误 2
+[7.424s] gmake: *** [Makefile:146：all] 错误 2
+[7.427s] Invoked command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action' returned '2': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action -- -j2 -l2

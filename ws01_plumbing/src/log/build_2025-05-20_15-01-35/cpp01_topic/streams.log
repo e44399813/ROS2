@@ -1,0 +1,40 @@
+[0.128s] Invoking command in '/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo:/home/lihaoting/.local/share/Trash/files/install:/home/lihaoting/.local/share/Trash/files/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic -- -j2 -l2
+[0.650s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.621s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.931s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.990s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.583s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.611s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.131s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.459s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.565s] -- Found base_interfaces_demo: 0.0.0 (/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[3.856s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.595s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.598s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/include>
+[4.598s] -- Configured cppcheck exclude dirs and/or files: 
+[4.610s] -- Added test 'lint_cmake' to check CMake code style
+[4.621s] -- Added test 'uncrustify' to check C / C++ code style
+[4.621s] -- Configured uncrustify additional arguments: 
+[4.625s] -- Added test 'xmllint' to check XML markup files
+[4.631s] -- Configuring done (4.2s)
+[5.638s] -- Generating done (0.6s)
+[5.649s] -- Build files have been written to: /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp01_topic
+[5.714s] [ 12%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[5.738s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[27.654s] [ 37%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[29.070s] [ 37%] Built target demo01_talker_str
+[32.246s] [ 50%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[32.798s] [ 50%] Built target demo02_listener_str
+[33.720s] [ 62%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[36.467s] [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[36.467s] [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:53:13:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Krclcpp::shutdown[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[36.467s]    53 |     [01;35m[Krclcpp::shutdown[m[K;
+[36.467s]       |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[36.467s] [01m[K/home/lihaoting/ROS2/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:53:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[38.988s] [ 75%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[39.206s] [ 75%] Built target demo03_talker_stu
+[39.359s] [ 87%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[49.218s] [100%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[49.570s] [100%] Built target demo04_listener_stu

@@ -275,7 +275,10 @@ SITE:STRING=lihaoting-VMware-Virtual-Platform
 TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/jazzy/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake
@@ -501,6 +504,9 @@ tracetools_DIR:PATH=/opt/ros/jazzy/share/tracetools/cmake
 
 //The directory containing a CMake configuration file for type_description_interfaces.
 type_description_interfaces_DIR:PATH=/opt/ros/jazzy/share/type_description_interfaces/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/jazzy/share/unique_identifier_msgs/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint

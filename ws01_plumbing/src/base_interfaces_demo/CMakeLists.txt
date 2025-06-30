@@ -10,6 +10,17 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+# 查找xml文件里提到的 编译依赖 功能包
+find_package(rosidl_default_generators REQUIRED)
+# 为接口文件生成源码
+# 第一个参数:当前功能包名称
+# 第二个参数:接口文件路径
+rosidl_generate_interfaces(
+  ${PROJECT_NAME}
+  "msg/Student.msg"
+  "srv/AddInts.srv"
+  "action/Progress.action"
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
