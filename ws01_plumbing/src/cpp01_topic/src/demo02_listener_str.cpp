@@ -6,10 +6,11 @@ using std::placeholders::_1;
 class Listener:public rclcpp::Node
 {
 private:
-void topic_callback (const std_msgs::msg::String & msg) const
-{
-    RCLCPP_INFO(this->get_logger(), "订阅信息: %s ",msg.data.c_str());
-}
+    void topic_callback (const std_msgs::msg::String & msg) const
+    {
+        RCLCPP_INFO(this->get_logger(), "订阅信息: %s ",msg.data.c_str());
+    }
+    
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr Subscription_;
     
 public:
@@ -20,7 +21,8 @@ public:
 Listener::Listener():Node("minimal_subscriber")
 {
     RCLCPP_INFO(this->get_logger(), "订阅创建! ");
-    /* 
+    /*
+          = this->create_subscription<>(,,bind(,,));
         返回值:订阅对象指针
         模板:消息类型
         参数:
