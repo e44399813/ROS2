@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "base_interfaces_demo/srv/detail/add_ints__struct.h"
+#include "base_interfaces_demo/srv/detail/add_ints__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "base_interfaces_demo/srv/detail/add_ints__type_support.h"
-#include "base_interfaces_demo/srv/detail/add_ints__functions.h"
-#include "base_interfaces_demo/srv/detail/add_ints__struct.h"
 
 #ifdef __cplusplus
 extern "C"

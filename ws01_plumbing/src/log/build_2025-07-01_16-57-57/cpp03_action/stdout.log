@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found base_interfaces_demo: 0.0.0 (/home/lihaoting/ROS2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.9s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/lihaoting/ROS2/ws01_plumbing/src/build/cpp03_action
+[ 25%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable demo01_action_server[0m
+[ 50%] Built target demo01_action_server
+[ 75%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo02_action_client[0m
+[100%] Built target demo02_action_client
+-- Install configuration: ""
+-- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/lib/cpp03_action/demo01_action_server
+-- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+-- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/lib/cpp03_action/demo02_action_client
+-- Set non-toolchain portion of runtime path of "/home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/lib/cpp03_action/demo02_action_client" to ""
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+-- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/environment/path.sh
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/environment/path.dsv
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/local_setup.bash
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/local_setup.sh
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/local_setup.zsh
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/local_setup.dsv
+-- Installing: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/package.dsv
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+-- Up-to-date: /home/lihaoting/ROS2/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/package.xml

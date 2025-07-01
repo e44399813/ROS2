@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ad95a7655e7a40d6560c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp04_param",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp04_param_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp04_param_uninstall-dcdcfb66a6e8dabf3242.json",
+					"name" : "cpp04_param_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_param_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_param_server-e0a1fd678ae4ab4b9ac4.json",
+					"name" : "demo01_param_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_param_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_param_client-6843caf2372e56200b74.json",
+					"name" : "demo02_param_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-16f59859f0b12228cb58.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lihaoting/ROS2/ws01_plumbing/src/build/cpp04_param",
+		"source" : "/home/lihaoting/ROS2/ws01_plumbing/src/cpp04_param"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

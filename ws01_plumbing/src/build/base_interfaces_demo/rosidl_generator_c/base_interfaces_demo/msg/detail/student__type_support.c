@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "base_interfaces_demo/msg/detail/student__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "base_interfaces_demo/msg/detail/student__functions.h"
 #include "base_interfaces_demo/msg/detail/student__struct.h"
+#include "base_interfaces_demo/msg/detail/student__type_support.h"
+#include "base_interfaces_demo/msg/detail/student__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -203,9 +203,9 @@ base_interfaces_demo__action__Progress_FeedbackMessage__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "unique_identifier_msgs/msg/detail/uuid__functions.h"
 #include "service_msgs/msg/detail/service_event_info__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG
@@ -1166,10 +1166,13 @@ base_interfaces_demo__action__Progress_FeedbackMessage__get_type_description(
 }
 
 static char toplevel_type_raw_source[] =
+  "# \\xe7\\x9b\\xae\\xe6\\xa0\\x87(Goal\\xe7\\xb1\\xbb)\\xe7\\x9a\\x84\\xe7\\xbb\\x93\\xe6\\x9e\\x84\n"
   "int64 num\n"
   "---\n"
+  "# \\xe7\\xbb\\x93\\xe6\\x9e\\x9c(Result\\xe7\\xb1\\xbb)\\xe7\\x9a\\x84\\xe7\\xbb\\x93\\xe6\\x9e\\x84\n"
   "int64 sum\n"
   "---\n"
+  "# \\xe5\\x8f\\x8d\\xe9\\xa6\\x88(Feedback\\xe7\\xb1\\xbb)\\xe7\\x9a\\x84\\xe7\\xbb\\x93\\xe6\\x9e\\x84\n"
   "float64 progress";
 
 static char action_encoding[] = "action";
@@ -1185,7 +1188,7 @@ base_interfaces_demo__action__Progress__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {base_interfaces_demo__action__Progress__TYPE_NAME, 36, 36},
     {action_encoding, 6, 6},
-    {toplevel_type_raw_source, 44, 44},
+    {toplevel_type_raw_source, 95, 95},
   };
   return &source;
 }

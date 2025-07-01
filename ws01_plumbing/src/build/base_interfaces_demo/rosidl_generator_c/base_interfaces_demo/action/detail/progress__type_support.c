@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "base_interfaces_demo/action/detail/progress__type_support.h"
-#include "base_interfaces_demo/action/detail/progress__functions.h"
 #include "base_interfaces_demo/action/detail/progress__struct.h"
+#include "base_interfaces_demo/action/detail/progress__functions.h"
+#include "base_interfaces_demo/action/detail/progress__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

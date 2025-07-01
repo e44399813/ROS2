@@ -5,12 +5,18 @@
 
 module base_interfaces_demo {
   module action {
+    @verbatim (language="comment", text=
+      "目标(Goal类)的结构")
     struct Progress_Goal {
       int64 num;
     };
+    @verbatim (language="comment", text=
+      "结果(Result类)的结构")
     struct Progress_Result {
       int64 sum;
     };
+    @verbatim (language="comment", text=
+      "反馈(Feedback类)的结构")
     struct Progress_Feedback {
       double progress;
     };
